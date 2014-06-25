@@ -1,0 +1,4 @@
+Nice job.Now you can come back on last scene or exit !
+Your choose:
+1.Back.
+2.Exit. 

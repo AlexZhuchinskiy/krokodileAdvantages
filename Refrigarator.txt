@@ -1,0 +1,7 @@
+Ohohohoohh...In refrigerators located :
+-meal
+-milk
+-bread
+Your choose :
+1.Eat it alone.
+2.Take everything.

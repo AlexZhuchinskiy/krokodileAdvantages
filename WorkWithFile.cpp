@@ -24,3 +24,8 @@ void WorkWithFile :: accessToFile(char *name){
 	fileAccess.close();
 	system("pause");
 }
+
+void WorkWithFile :: createFileAndWriteMess(string mess){
+	ofstream file("info.txt" , ios::out);
+	file << mess.c_str();
+}

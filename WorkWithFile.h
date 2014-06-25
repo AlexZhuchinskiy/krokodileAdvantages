@@ -9,6 +9,7 @@ class WorkWithFile
 {
 	
 public:
+	void createFileAndWriteMess(string mess);
 	void accessToFile(char *name);
 	WorkWithFile(void);
 	~WorkWithFile(void);
