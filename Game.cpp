@@ -13,14 +13,49 @@ Game::~Game(void)
 }
 
 void Game :: startQuest(){
-	
+	system("cls");
+	file.accessToFile("mainScene.txt");
+	char ans = getch();
+	switch(ans){
+	case '1':
+		goHome();
+		break;
+	case '2' :
+		comeToSwimmingPool();
+		break;
+	default :
+		cout << "Error of choose ! For choose enter 1 or 2 ." << endl;
+		startQuest();
+		break;
+	}
 }
 
 void Game :: goHome(){
-	file.accessToFile("goHome.txt");	
+	system("cls");
+	file.accessToFile("goHome.txt");
+	char ans = getch();
+	switch(ans){
+	case '1' :
+		system("cls");
+		cout << "Right choosee +5 to karma !!!" << endl;
+		startQuest();
+		break;
+	
+	case '2':
+		system("cls");
+		cout << "Bye !!!" << endl;
+		exit(0);
+		break;
+	default :
+		cout << "Error of choose ! For choose enter 1 or 2 ." << endl;
+		startQuest();
+		break;
+	}
 }
 
 void Game :: comeToSwimmingPool(){
+	system("cls");
+	file.accessToFile("goToSwimmingPool.txt");
 	
 }
 
@@ -41,7 +76,6 @@ void Game :: menu(){
 	case '2':
 		system("cls");
 		file.accessToFile("Rule.txt");
-		//system("pause");
 		menu();
 		break;
 	case '3':

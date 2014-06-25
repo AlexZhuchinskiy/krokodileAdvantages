@@ -18,7 +18,7 @@ void WorkWithFile :: accessToFile(char *name){
 	}else{
 		while(!fileAccess.eof()){
 			fileAccess.getline(buff,100);
-			cout << buff;
+			cout << buff << endl;
 		}
 	}
 	fileAccess.close();

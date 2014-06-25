@@ -1,5 +1,6 @@
 #pragma once
 #include "WorkWithFile.h"
+#include <conio.h>
 
 class Game
 {
@@ -10,7 +11,8 @@ public:
 	void heatKrocodile(int quantity);
 	void giveMealKrocodile();
 	void rollBack();
-	void startLabQuest();
+	void startQuest();
+	void menu();
 	Game(void);
 	~Game(void);
 };
