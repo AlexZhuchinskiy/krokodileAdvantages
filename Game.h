@@ -5,18 +5,15 @@
 
 class Game
 {
+	int countForFile;
+	string fileName[4];
 	WorkWithFile file;
-	bool isMessageLeave;	
-	bool eatWhichYouTake;
 public:
-	void goHome();
-	void comeToSwimmingPool();
-	void hitKrocodile(int quantity);
-	void goToForest();
-	bool isPersonLiveAfterHit(int quantity);	
-	void seeInRefrigarator();
-	void reactionCrocodeleOnEat(bool eat);
-	void startQuest();
+	void died();
+	void win();
+	void changeLevel();
+
+	void quest();
 	void menu();
 	Game(void);
 	~Game(void);

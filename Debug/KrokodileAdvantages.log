@@ -1,22 +1,18 @@
-﻿Build started 6/25/2014 3:23:07 PM.
+﻿Build started 6/25/2014 11:31:40 PM.
      1>Project "C:\Users\Sasha\Documents\VisualStudio2012k\Projects\KrokodileAdvantages\KrokodileAdvantages\KrokodileAdvantages.vcxproj" on node 2 (Build target(s)).
      1>InitializeBuildStatus:
-         Creating "Debug\KrokodileAdvantages.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\KrokodileAdvantages.unsuccessfulbuild".
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp main.cpp
          Game.cpp
-     1>c:\users\sasha\documents\visualstudio2012k\projects\krokodileadvantages\krokodileadvantages\game.cpp(19): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>c:\users\sasha\documents\visualstudio2012k\projects\krokodileadvantages\krokodileadvantages\game.cpp(21): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
-     1>c:\users\sasha\documents\visualstudio2012k\projects\krokodileadvantages\krokodileadvantages\game.cpp(37): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>c:\users\sasha\documents\visualstudio2012k\projects\krokodileadvantages\krokodileadvantages\game.cpp(70): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
-     1>c:\users\sasha\documents\visualstudio2012k\projects\krokodileadvantages\krokodileadvantages\game.cpp(60): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
-     1>c:\users\sasha\documents\visualstudio2012k\projects\krokodileadvantages\krokodileadvantages\game.cpp(109): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
-     1>c:\users\sasha\documents\visualstudio2012k\projects\krokodileadvantages\krokodileadvantages\game.cpp(141): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
-     1>c:\users\sasha\documents\visualstudio2012k\projects\krokodileadvantages\krokodileadvantages\game.cpp(166): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
+         Generating Code...
+         Compiling...
+         main.cpp
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sasha\Documents\VisualStudio2012k\Projects\KrokodileAdvantages\Debug\KrokodileAdvantages.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sasha\Documents\VisualStudio2012k\Projects\KrokodileAdvantages\Debug\KrokodileAdvantages.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sasha\Documents\VisualStudio2012k\Projects\KrokodileAdvantages\Debug\KrokodileAdvantages.lib" /MACHINE:X86 Debug\Game.obj
          Debug\main.obj
@@ -29,4 +25,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.60
+Time Elapsed 00:00:02.87

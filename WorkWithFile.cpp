@@ -10,7 +10,7 @@ WorkWithFile::~WorkWithFile(void)
 {
 }
 
-void WorkWithFile :: accessToFile(char *name){
+void WorkWithFile :: accessToFile(string name){
 	char buff[100];
 	ifstream fileAccess(name);
 	if(!fileAccess.is_open()){

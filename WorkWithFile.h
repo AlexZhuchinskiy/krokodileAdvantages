@@ -10,7 +10,7 @@ class WorkWithFile
 	
 public:
 	void createFileAndWriteMess(string mess);
-	void accessToFile(char *name);
+	void accessToFile(string name);
 	WorkWithFile(void);
 	~WorkWithFile(void);
 };
