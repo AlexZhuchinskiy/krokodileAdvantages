@@ -2,7 +2,7 @@
 #include "WorkWithFile.h"
 
 int main(){
-	WorkWithFile *f = new WorkWithFile();
-	f->accessToFile("mainScene.txt");
+	Game *test  = new Game();
+	test->menu();
 	return EXIT_SUCCESS;
 }

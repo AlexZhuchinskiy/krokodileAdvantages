@@ -13,7 +13,7 @@ Game::~Game(void)
 }
 
 void Game :: startQuest(){
-		
+	
 }
 
 void Game :: goHome(){
@@ -25,25 +25,26 @@ void Game :: comeToSwimmingPool(){
 }
 
 void Game :: menu(){
+	system("cls");
 	cout << "Crocodile Advantages" << endl;
 	cout << "1.Start" << endl;
 	cout << "2.Rules" << endl;
 	cout << "3.Exit" << endl;
-	int ans = 0;
-	cin >> ans;
+	char ans;
+	ans = getch();
 	switch (ans)
 	{
-	case 1:
+	case '1':
 		system("cls");
 		startQuest();
 		break;
-	case 2:
+	case '2':
 		system("cls");
 		file.accessToFile("Rule.txt");
-		system("pause");
+		//system("pause");
 		menu();
 		break;
-	case 3:
+	case '3':
 		exit(0);
 		break;
 	default:
