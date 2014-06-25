@@ -7,7 +7,7 @@ Game::Game(void)
 	fileName[0] = "mainScene.txt";
 	fileName[1] = "goToSwimmingPool.txt";
 	fileName[2] = "Refrigarator.txt";
-	fileName[3] = "goToForest.txt";
+	fileName[3] = "goToOtherPool.txt";
 }
 
 
@@ -37,8 +37,8 @@ void Game :: quest(){
 }
 
 void Game :: changeLevel(){
+	countForFile++;
 	if(countForFile <= 3){
-		countForFile++;
 		quest();
 	}else{
 		countForFile = 0;
@@ -48,12 +48,14 @@ void Game :: changeLevel(){
 
 
 void Game :: win(){
+	system("cls");
 	cout << "You WIN ! My CONGRETULATION !" << endl;
 	system("pause");
 	exit(0);
 }
 
 void Game :: died(){
+	system("cls");
 	cout << "Sorry you DIED ! TRY AGAIN !" << endl;
 	system("pause");
 	exit(0);
